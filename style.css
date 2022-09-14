@@ -1,0 +1,129 @@
+body {
+    font-family: Andale Mono;
+    text-align: center;
+    background-color: #d79797;
+
+}
+
+h1 { 
+    color: #FFFFFF;
+    background-color: #686d70 ;
+    box-shadow: 2px 2px 3px #334257;
+    height: 60px;
+    padding: 15PX;
+    margin: autos;
+    
+}
+
+p {
+    margin: 10px;
+    padding: 20px;
+    width: 400px;
+}
+
+
+
+h2 {
+    color: #3e4248;
+    background-color: #FFFFFF;
+    border: 1px solid #706d6a;
+    border-radius: 20px;
+}
+
+#first-h2 {
+    color: black;
+    border: 1px solid #636769;
+    
+}
+
+h3 {
+    color: black;
+    background-color: #FFFFFF;
+    border: 1px solid #6f7274;
+    border-radius: 20px;
+}
+
+
+img {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+#points {
+    list-style: none;
+}
+
+.paragraph-div {
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px #b46103;
+}
+
+.paragraph {
+    width: 300px;
+    text-align: justify;
+    margin: 10px auto;
+    
+}
+
+.container {
+    padding: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-image:url(images/fond-brent.jpg) ;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    position: relative;
+}
+
+.segments {
+    padding: 26px;
+    width: 90%;
+    background-color: #c47c7c;
+    box-shadow: 2px 2px 3px #8c676b;
+    border-radius: 20px;
+
+}
+
+#photo {
+    padding: 26px;
+    width: 90%;
+    margin: 20px auto;
+    background-color: #a6a1a1;
+    box-shadow: 2px 2px 3px #3e4248;
+    border-radius: 20px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.album {
+    height: 60%;
+    width: 40%;
+    border-radius: 45%;
+}
+
+#absolute {
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    height: 10px;
+    width: 30px;
+    margin: 0;
+    padding: 0;
+    transform: translateX(-50%);
+    
+
+}
